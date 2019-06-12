@@ -1,0 +1,26 @@
+{
+  "name": "yuque-auth",
+  "version": "1.0.0",
+  "description": "yuque 非 web 授权插件",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuque/auth"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "opn": "^5.3.0",
+    "urllib": "^2.28.1",
+    "utility": "^1.13.1"
+  },
+  "devDependencies": {
+    "eslint": "4",
+    "eslint-config-egg": "5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "ci": "npm run lint"
+  }
+}
