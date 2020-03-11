@@ -22,6 +22,6 @@ auth({
   console.log('get auth', res);
   //{ access_token: 'Y1iwvwUPI4M67VjWRGHAzgq7gzB4a21EV3jOhyFf', token_type: 'bearer', scope: 'repo,doc' }
 }).catch(err => {
-  console.log('error happend', err.stack);
+  console.log('error happened', err.stack);
 });
 ```
